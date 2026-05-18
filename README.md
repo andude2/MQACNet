@@ -21,7 +21,7 @@ All command execution commands send the text after the MQACNet command to matchi
 Target one character:
 
 ```txt
-/actell Cleric01 /casting "Complete Heal" -targetid|${Me.ID}
+/actell Cleric01 /cast "Complete Heal" -targetid|${Me.ID}
 /act Cleric01 /say targeted command
 /acexecute Cleric01 /foreground
 /acex Cleric01 /foreground
